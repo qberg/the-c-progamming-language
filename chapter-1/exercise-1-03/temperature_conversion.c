@@ -10,7 +10,7 @@ int main()
 	step = 20;
 
 	printf("Fahrnheit\tCelsius\n");
-	printf("--------------------\n");
+	printf("----------------------\n");
 
 	fahr = lower;
 	while (fahr<=upper) {
@@ -18,4 +18,5 @@ int main()
 		printf("%3.0f\t\t%6.1f\n", fahr, celsius);
 		fahr = fahr + step;
 	}
+	return 0;
 }
